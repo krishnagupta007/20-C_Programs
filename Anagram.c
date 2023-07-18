@@ -7,8 +7,8 @@ void Lower_str(char* str1){
     
     for (int i = 0; i < len; i++) {
         str1[i] = tolower(str1[i]);
+        }
     }
-}
 
 void Sort_str(char* str1){
     int len = strlen(str1);
@@ -37,7 +37,8 @@ void main(){
     
     if (strcmp(str1, str2) == 0){
         printf("Anagram");
-    }else{
+    }
+    else{
         printf("Not Anagram");
     }
 }
